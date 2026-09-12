@@ -1,57 +1,116 @@
 
-# [Nicolas Rico Garzon]
-**Grado:** [Ej. Grado 11 / Media Técnica]  
-*Estudiante apasionado por [menciona un arte, deporte o afición, ej. la programación, el fútbol o el dibujo]*
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital | Nicolas Rico Garzon</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: var(--bg); color: var(--text); line-height: 1.6; padding-bottom: 40px; }
+        header { background: linear-gradient(135deg, #1e293b 0%, #2563eb 100%); color: white; text-align: center; padding: 50px 20px; }
+        header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        header p { font-size: 1.2rem; opacity: 0.9; }
+        .container { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+        section { background: var(--card-bg); padding: 30px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 25px; }
+        h2 { color: var(--primary); font-size: 1.5rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-bottom: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: #f1f5f9; padding: 20px; border-radius: 8px; border-left: 4px solid var(--primary); }
+        .card h3 { margin-bottom: 10px; color: #0f172a; }
+        ul { list-style-type: square; margin-left: 20px; }
+        ul li { margin-bottom: 8px; }
+        .contact-info p { margin-bottom: 8px; }
+        footer { text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 30px; }
+    </style>
+</head>
+<body>
 
----
+    <header>
+        <h1>Nicolas Rico Garzon</h1>
+        <p>Estudiante de Grado 11 | Apasionado por la electrónica, el ciclismo y la música</p>
+    </header>
 
-## Sobre mí
+    <div class="container">
 
-Soy de [Tu Ciudad/Municipio] y actualmente estudio en [Nombre de tu Institución Educativa]. Me considero una persona [elige 3-4 cualidades: ej. responsable, reflexiva, curiosa y perseverante]. En mi tiempo libre disfruto de [menciona tus pasatiempos: ej. leer, jugar baloncesto, aprender sobre tecnología]. Mi meta a futuro es estudiar [menciona la carrera o profesión que te interesa], ya que [explica brevemente por qué te llama la atención]. Me motiva a seguir adelante [escribe qué te inspira o motiva a no darte por vencido].
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                Soy de Cartagena del Chairá, Caquetá, y actualmente me encuentro cursando grado 11. Me describo como un estudiante responsable, curioso, perseverante y con gran disposición para aprender. En mi tiempo libre disfruto escuchar música, practicar ciclismo y explorar el mundo de la electrónica. Mi gran sueño a futuro es estudiar <strong>Ingeniería Mecatrónica</strong> para aportar al desarrollo tecnológico de mi región y lograr grandes cambios en mi país. Lo que me motiva a seguir adelante es el deseo constante de superarme y aportar valor a la sociedad mediante el conocimiento.
+            </p>
+        </section>
 
----
+        <section>
+            <h2>Formación Académica</h2>
+            <p><strong>Nivel actual:</strong> Bachillerato Académico / Educación Media (Grado 11 - Año 2026)</p>
+            <p><strong>Articulación SENA:</strong> Técnico en Contabilización de Operaciones Comerciales y Financieras</p>
+            <br>
+            <p>
+                En mi paso por la educación media y el programa técnico del SENA he adquirido valiosos conocimientos en gestión administrativa, organización de información financiera, pensamiento lógico y trabajo en equipo. Este proceso ha sido fundamental para fortalecer mi disciplina académica y prepararme para la educación superior.
+            </p>
+        </section>
 
-## Formación Académica
+        <section>
+            <h2>Habilidades</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Habilidades Blandas</h3>
+                    <ul>
+                        <li>Responsabilidad y puntualidad</li>
+                        <li>Trabajo en equipo y colaboración</li>
+                        <li>Perseverancia y resiliencia</li>
+                        <li>Capacidad de organización</li>
+                        <li>Disposición para el aprendizaje continuo</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Habilidades Técnicas</h3>
+                    <ul>
+                        <li>Nociones básicas de electrónica</li>
+                        <li>Contabilización básica de operaciones (SENA)</li>
+                        <li>Manejo de herramientas ofimáticas (Word, Excel)</li>
+                        <li>Manejo de plataformas de aprendizaje y GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-- **Institución Educativa:** [Nombre de tu colegio o institución] (Año en curso)
-- **Énfasis / Nivel:** [Ej. Bachillerato Académico / Técnico en Sistemas / Articulación SENA]
-- **Articulación / Especialidad:** [Si tienes articulación con el SENA u otra entidad, indícala aquí, ej. Técnico en Mantenimiento de Equipos de Cómputo]
+        <section>
+            <h2>Proyectos Destacados</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>1. Participación en la Feria Empresarial</h3>
+                    <p><strong>Descripción:</strong> Presentación y desarrollo de una idea de negocio estructurada como parte de las actividades prácticas del colegio y la formación del SENA.</p>
+                    <p><strong>Herramientas:</strong> Elaboración de costos, trabajo en equipo y presentación pública.</p>
+                    <p><strong>Resultado:</strong> Fortalecí mis habilidades de comunicación y comprensión de procesos comerciales.</p>
+                </div>
+                <div class="card">
+                    <h3>2. Proyecto en la Feria del Día de la Ciencia</h3>
+                    <p><strong>Descripción:</strong> Exposición de un proyecto enfocado en la aplicación de conceptos científicos y tecnológicos prácticos.</p>
+                    <p><strong>Herramientas:</strong> Investigación, montaje de experimentos y sustentación ante la comunidad educativa.</p>
+                    <p><strong>Resultado:</strong> Aprendí a estructurar un proyecto técnico desde la indagación hasta la presentación final.</p>
+                </div>
+            </div>
+        </section>
 
-Actualmente me encuentro en la etapa final de mi educación media. Durante este proceso académico he adquirido habilidades clave en el trabajo colaborativo, la resolución de problemas y la adaptación a nuevos retos formativos.
+        <section class="contact-info">
+            <h2>Contacto</h2>
+            <p>📧 <strong>Correo electrónico:</strong> snicos.rico19@gmail.com</p>
+            <p>📱 <strong>Teléfono:</strong> 3208371824</p>
+            <p>📍 <strong>Ubicación:</strong> Cartagena del Chairá, Caquetá, Colombia</p>
+        </section>
 
----
+    </div>
 
-## Habilidades
+    <footer>
+        <p>&copy; 2026 Nicolas Rico Garzon - Portafolio Digital Estudiantil</p>
+    </footer>
 
-### Habilidades Blandas
-- **Responsabilidad y puntualidad:** Compromiso constante con las tareas y actividades asignadas.
-- **Trabajo en equipo:** Capacidad para colaborar activamente y aportar en grupos de estudio.
-- **Comunicación asertiva:** Expresión clara y respetuosa de ideas.
-- **Organización:** Planificación adecuada del tiempo y las entregas académicas.
-
-### Habilidades Técnicas y Específicas
-- **Herramientas ofimáticas:** Manejo de Word, Excel, PowerPoint y Google Docs.
-- **Conocimientos en el área:** [Agrega algún área técnica, ej. diseño básico, soporte técnico, contabilidad, etc.]
-- **Intereses/Aficiones afines:** [Ej. Manejo de herramientas digitales, mantenimiento de equipos, etc.]
-
----
-
-## Proyectos Destacados
-
-### 1. [Nombre del Proyecto 1]
-- **¿En qué consistió?:** [Escribe 1-2 líneas sobre de qué se trató, ej. Taller práctico o feria de la ciencia].
-- **Herramientas y pasos:** [Procesos o herramientas que usaste, ej. investigación, maquetación, presentaciones].
-- **Aprendizaje/Resultado:** [Resultado obtenido o aprendizaje principal].
-
-### 2. [Nombre del Proyecto 2]
-- **¿En qué consistió?:** [Descripción breve de la actividad o trabajo de clase].
-- **Herramientas y pasos:** [Herramientas, materiales o conocimientos requeridos].
-- **Aprendizaje/Resultado:** [Conclusión o habilidad adquirida].
-
----
-
-## Contacto
-
-- **Correo electrónico:** [Tu correo institucional o personal serio]
-- **Teléfono:** [Tu número de contacto]
-*(Por seguridad, no se publica dirección física ni documento de identidad)*
+</body>
+</html>
