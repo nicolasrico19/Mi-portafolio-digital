@@ -1,5 +1,5 @@
 
-# [Tu Nombre Completo]
+# [Nicolas Rico Garzon]
 **Grado:** [Ej. Grado 11 / Media Técnica]  
 *Estudiante apasionado por [menciona un arte, deporte o afición, ej. la programación, el fútbol o el dibujo]*
 
