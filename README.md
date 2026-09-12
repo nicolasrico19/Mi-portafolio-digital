@@ -1,4 +1,4 @@
-# Mi-portafolio-digital
+
 # [Tu Nombre Completo]
 **Grado:** [Ej. Grado 11 / Media Técnica]  
 *Estudiante apasionado por [menciona un arte, deporte o afición, ej. la programación, el fútbol o el dibujo]*
